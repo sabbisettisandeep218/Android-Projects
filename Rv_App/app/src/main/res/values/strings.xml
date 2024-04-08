@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Rv_App</string>
+    <string name="emoji">Emoji</string>
+    <string name="happy">Happy</string>
+    <string name="add_new_task">Add New Task</string>
+    <string name="add">Add</string>
+    <string name="item_1">Item 1</string>
+    <string name="delete_all">Delete All</string>
+    <string name="get">Get</string>
+    <string name="delete_button">Delete Button</string>
+</resources>

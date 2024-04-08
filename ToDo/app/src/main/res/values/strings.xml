@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">ToDo</string>
+    <string name="new_todo">New Todo</string>
+    <string name="add">Add</string>
+    <string name="title">Title</string>
+    <string name="todo_description">ToDo Description</string>
+    <string name="to_do_application">To Do Application</string>
+    <string name="delete_todo_list_item">Delete ToDo List Item</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="todo">TODO</string>
+    <string name="new_task">New Task</string>
+    <string name="save">Save</string>
+    <string name="enter_a_new_task">Enter a new Task</string>
+    <string name="searchbar_hint">searchbar_hint</string>
+    <string name="search_the_tasks">Search the Tasks</string>
+    <string name="filter_checked">Filter Checked</string>
+    <string name="filter_the_data_based_on_task_completion">Filter the data based on task completion</string>
+
+</resources>

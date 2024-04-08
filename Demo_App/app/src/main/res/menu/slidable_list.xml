@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/about"
+        android:title="About">
+    </item>
+
+    <item
+        android:id="@+id/faculty"
+        android:title="Faculty">
+    </item>
+
+    <item
+        android:id="@+id/Academics"
+        android:title="Academics">
+    </item>
+    <item android:title=" Exam Cell">
+        <menu>
+            <item
+                android:id="@+id/mid"
+                android:title="@string/mid_exams" />
+            <item
+                android:id="@+id/sem"
+                android:title="@string/semester_exams"/>
+        </menu>
+    </item>
+</menu>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    tools:ignore="MissingConstraints">
+
+
+    <CheckBox
+        android:id="@+id/todoCb1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/todoTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:text="@string/todo_description"
+        android:textSize="26sp"
+        app:layout_constraintBottom_toBottomOf="@+id/todoCb1"
+        app:layout_constraintStart_toEndOf="@+id/todoCb1"
+        app:layout_constraintTop_toTopOf="@+id/todoCb1" />
+
+    <ImageButton
+        android:id="@+id/DelBtn"
+        android:layout_width="54dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="10dp"
+        android:contentDescription="@string/delete_todo_list_item"
+        android:src="@drawable/trash"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/todoCb1" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
